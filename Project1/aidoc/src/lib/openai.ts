@@ -9,7 +9,7 @@ const openai = new OpenAIApi(config);
 export async function generateImagePrompt(name: string) {
   try {
     const response = await openai.createChatCompletion({
-      model: "text-davinci-003",
+      model: "gpt-4o-mini",
       messages: [
         {
           role: "system",
@@ -23,6 +23,7 @@ export async function generateImagePrompt(name: string) {
       ],
     });
     const data = await response.json();
+    console.log(data);
     const image_description = data.choices[0].message.content;
     return image_description as string;
   } catch (error) {
