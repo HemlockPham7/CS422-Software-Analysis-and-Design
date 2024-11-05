@@ -6,10 +6,15 @@ helps user easier in writing documentation by integrating AI, and graded 9.5 in 
 - Built the client-side with TypeScript, Next.js, and TailwindCSS for an user-friendly experiences.
 
 ## 👓 Demo
-
+https://youtu.be/N8PN2k8xojw
 
 ## ⭐ Features
-
+- Login with Gmail or Github.
+- Create a new documentation.
+- Shift + A to use OpenAI for suggesting and auto-complete content.
+- Generate the image represent for the documentation.
+- Delete documentation.
+- Edit documentatioin.
 
 ## 📸 Snapshots
 ### Home Page 
